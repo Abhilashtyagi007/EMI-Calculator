@@ -1,0 +1,144 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 1px solid gray;
+  padding: 5px;
+  background: #EEEEEE;
+  text-align: left;
+  line-height: 25.6px;
+  font-size: 16px;
+}
+
+/* .ETableCellText {
+  background-color: gray;
+  color: white !important;
+  font-size: 10px !important;
+} */
+/* 
+.ETableCellVal {
+  text-align: right !important;
+  font-size: 10px !important;
+} */
+
+.CalApp {
+  width: 80%;
+  border: 2px #ccc solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  background-color: #EEEEEE;
+}
+
+
+.text {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  align-items: center;
+  line-height: 25.6px;
+}
+
+.text label{
+  color: #212529;
+}
+
+.text>input {
+  padding: 10px;
+  margin-left: 25px;
+  outline: none;
+  width: 200px;
+}
+
+/* .text>input>₹{
+  background: #000;;
+} */
+
+.text button{
+  border-radius: 0 0 1px 1px;
+  padding: 0 2px;
+}
+
+.text button {
+  padding: 10px 5px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.btn button{
+  background:#008000;
+  color: white;
+  border-radius: 5px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+  
+  /* width: 100%; */
+  /* margin: 20px; */
+  padding: 1px;
+  background: #EEEEEE;
+  text-align: left;
+  line-height: 25.6px;
+  font-size: 16px;
+}
+
+.bottom_left {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.bottom_right {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 25%;
+  
+  box-sizing: border-box;
+  padding: 100px;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.bottom_right>Pie {
+  /* border: 1px dotted black;
+  object-fit: contain;
+  height: 50px; */
+  margin: 42px 10px 53px 10px;
+}
+
+
+
+.cell{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid green; */
+  padding: 20px;
+  line-height: 25px;
+}
+.cell tr{
+  color:#666666;
+  font-size: 16px;
+  align-items: center;
+}
+.cell td{
+  color: #212529;
+  font-weight: 600;
+  font-size: 18px;
+}
